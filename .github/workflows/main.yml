@@ -22,6 +22,7 @@ jobs:
           items=(
             "https://nl.dl.parscdn.net/f/019dd316-e18a-7226-a5f8-2eaa1596e302/Yellow%20Statue%201.mp4"
             "https://nl.dl.parscdn.net/f/019dd325-4145-72b8-8ee4-d51e4844bebb/To%20Fix%20the%20Mood%20%28Blue%20Bed%2C%20Pink%20Dress%29%20Teaser%203%201080p.mp4"
+            "https://nl.dl.parscdn.net/zip/01kq9k25d4f47g0c40qztadr0h/Selti1.zip"
           )
 
           file_exists() {
