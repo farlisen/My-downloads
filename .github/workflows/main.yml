@@ -1,0 +1,67 @@
+name: Download and Mirror Files
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # این خط بهت اجازه میده دستی هم اجراش کنی
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run Downloader Script
+        run: |
+          # لیست فایل‌های تو اینجا قرار می‌گیرند
+          items=(
+            "https://nl.dl.parscdn.net/f/019dd316-e18a-7226-a5f8-2eaa1596e302/Yellow%20Statue%201.mp4"
+          )
+
+          file_exists() {
+            local f="$1"
+            [[ -f "$f" ]] || [[ -f "$f.partaa" ]]
+          }
+
+          for item in "${items[@]}"; do
+            if [[ "$item" == *"|"* ]]; then
+              # بخش مربوط به گیت‌هاب (فعلا باهاش کار نداری)
+              IFS='|' read -r repo file_pattern <<< "$item"
+              tag=$(curl -s "https://api.github.com/repos/$repo/releases/latest" | jq -r .tag_name)
+              filename="${file_pattern//"{tag}"/$tag}"
+              url="https://github.com/$(echo $repo)/releases/download/$tag/$filename"
+            else
+              # بخش مربوط به لینک مستقیم تو (GetComics)
+              url="$item"
+              filename=$(basename "${url%%\?*}")
+            fi
+
+            if file_exists "$filename"; then
+              echo "فایل $filename از قبل موجود است. اسکیپ شد."
+              continue
+            fi
+
+            echo "در حال دانلود: $filename"
+            wget -q --show-progress "$url" -O "$filename"
+
+            # اگر فایل بزرگتر از 97 مگابایت بود، تیکه‌تیکه‌اش کن
+            filesize=$(stat -c%s "$filename")
+            if (( filesize > 97000000 )); then
+              echo "فایل بزرگ است، در حال قطعه‌قطعه کردن..."
+              split -b 95M "$filename" "$filename.part"
+              rm "$filename"
+              echo "cat $filename.part* > $filename" > reassemble.sh
+            fi
+          done
+
+      - name: Commit and Push
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: Fardin-Bot
+          message: "Add new file from direct link"
+          add: "."
