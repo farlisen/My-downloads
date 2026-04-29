@@ -20,13 +20,8 @@ jobs:
         run: |
           # لیست فایل‌های تو اینجا قرار می‌گیرند
           items=(
-            "https://k2s.cc/file/1e9a9794e306a/XXXFILE.ORG-Seltin_Sweety_15.mp4?site=porncoven.com"
-            "https://k2s.cc/file/70370dba4b844/XXXFILE.ORG-Seltin_Sweety_16.mp4?site=porncoven.com"
-            "https://k2s.cc/file/08a223958b657/XXXFILE.ORG-Seltin_Sweety_17.mp4?site=porncoven.com"
-            "https://k2s.cc/file/6a6294aff7de8/XXXFILE.ORG-Seltin_Sweety_18.mp4?site=porncoven.com"
-            "https://k2s.cc/file/f36f3a02fe6ca/XXXFILE.ORG-Seltin_Sweety_19.mp4?site=porncoven.com"
-            "https://k2s.cc/file/406cf4f757cd0/XXXFILE.ORG-Seltin_Sweety_20.mp4?site=porncoven.com"
-            
+            "https://k2s.cc/file/1e9a9794e306a/XXXFILE.ORG-Seltin_Sweety_15.mp4"
+  
           )
 
           file_exists() {
