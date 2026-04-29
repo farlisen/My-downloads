@@ -20,8 +20,10 @@ jobs:
         run: |
           # لیست فایل‌های تو اینجا قرار می‌گیرند
           items=(
-            "https://k2s.cc/file/1e9a9794e306a/XXXFILE.ORG-Seltin_Sweety_15.mp4"
-  
+            "https://nl.dl.parscdn.net/f/019dd9e7-dc6f-7126-aa2e-d79a3a51b92f/Seltin.Sweety.Megapack_11032268-720p.mp4"
+            "https://nl.dl.parscdn.net/f/019dd9e8-6e7f-7003-9dd1-c684d8c0fb47/Seltin.Sweety.Megapack_11135793-720p.mp4"
+            "https://nl.dl.parscdn.net/f/019dd9e8-b0a9-7296-ab86-2a823013220d/Seltin.Sweety.Megapack_Selti.fingering.686p.mp4"
+            "https://nl.dl.parscdn.net/f/019dd9e8-d96b-7274-82c0-9be5fa2c693c/Seltin.Sweety.Megapack_selti.aka.Seltin_sweety.NEWEST..720p.mp4"
           )
 
           file_exists() {
