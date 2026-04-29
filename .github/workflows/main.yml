@@ -20,18 +20,13 @@ jobs:
         run: |
           # لیست فایل‌های تو اینجا قرار می‌گیرند
           items=(
-            "https://nl.dl.parscdn.net/f/019dd349-be12-72ca-a5a9-2d72cdba1a4a/XXXFILE.ORG-Seltin_Sweety_01.mp4"
-            "https://nl.dl.parscdn.net/f/019dd349-c31d-73c8-b093-a1e56196cf19/XXXFILE.ORG-Seltin_Sweety_03.mp4"
-            "https://nl.dl.parscdn.net/f/019dd349-c31d-73c8-b093-a1e56196cf19/XXXFILE.ORG-Seltin_Sweety_03.mp4"
-            "https://nl.dl.parscdn.net/f/019dd349-c31d-73c8-b093-a1e56196cf19/XXXFILE.ORG-Seltin_Sweety_03.mp4"
-            "https://nl.dl.parscdn.net/f/019dd349-c8fc-7331-bea8-c75b46f06ae4/XXXFILE.ORG-Seltin_Sweety_05.mp4"
-            "https://nl.dl.parscdn.net/f/019dd349-d484-7006-a97c-fb9a9f239bb3/XXXFILE.ORG-Seltin_Sweety_07.mp4"
-            "https://nl.dl.parscdn.net/f/019dd349-d8cc-7260-bb2f-778142a32bb9/XXXFILE.ORG-Seltin_Sweety_08.mp4"
-            "https://nl.dl.parscdn.net/f/019dd349-dcfe-73be-a6b7-ad7cb9e769f0/XXXFILE.ORG-Seltin_Sweety_09.mp4"
-            "https://nl.dl.parscdn.net/f/019dd34b-48ac-713c-a945-e6a17653677f/XXXFILE.ORG-Seltin_Sweety_11.mp4"
-            "https://nl.dl.parscdn.net/f/019dd34b-6210-70b5-a09a-f688313617e4/XXXFILE.ORG-Seltin_Sweety_12.mp4"
-            "https://nl.dl.parscdn.net/f/019dd34b-7794-71a4-9f22-1b253c3b4246/XXXFILE.ORG-Seltin_Sweety_14.mp4"
-            "https://nl.dl.parscdn.net/f/019dd34b-8fb5-7369-841e-e171ec0616e1/XXXFILE.ORG-Seltin_Sweety_13.mp4"
+            "https://k2s.cc/file/1e9a9794e306a/XXXFILE.ORG-Seltin_Sweety_15.mp4?site=porncoven.com"
+            "https://k2s.cc/file/70370dba4b844/XXXFILE.ORG-Seltin_Sweety_16.mp4?site=porncoven.com"
+            "https://k2s.cc/file/08a223958b657/XXXFILE.ORG-Seltin_Sweety_17.mp4?site=porncoven.com"
+            "https://k2s.cc/file/6a6294aff7de8/XXXFILE.ORG-Seltin_Sweety_18.mp4?site=porncoven.com"
+            "https://k2s.cc/file/f36f3a02fe6ca/XXXFILE.ORG-Seltin_Sweety_19.mp4?site=porncoven.com"
+            "https://k2s.cc/file/406cf4f757cd0/XXXFILE.ORG-Seltin_Sweety_20.mp4?site=porncoven.com"
+            
           )
 
           file_exists() {
