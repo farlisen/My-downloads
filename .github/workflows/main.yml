@@ -20,7 +20,7 @@ jobs:
         run: |
           # لیست فایل‌های تو اینجا قرار می‌گیرند
           items=(
-            "https://nl.dl.parscdn.net/f/019dde1c-a293-70d6-8859-6ea31cb898fa/Selti%20OnlyFans%2079.mp4"
+            "https://nl.dl.parscdn.net/f/019dde1c-a28c-7219-b61a-d9ab735e4231/Selti%20OnlyFans%2074.mp4"
           )
 
           file_exists() {
