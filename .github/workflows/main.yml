@@ -20,7 +20,7 @@ jobs:
         run: |
           # لیست فایل‌های تو اینجا قرار می‌گیرند
           items=(
-            "https://nl.dl.parscdn.net/f/019dda0f-1701-73c5-980c-f8d6252ef945/Maid.mp4"
+            "https://nl.dl.parscdn.net/f/019dda0f-40fe-701d-a852-4a3d65049cc4/Noir%20Romance%20-%20teaser.mp4"
           )
 
           file_exists() {
