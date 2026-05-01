@@ -20,8 +20,8 @@ jobs:
         run: |
           # لیست فایل‌های تو اینجا قرار می‌گیرند
           items=(
-            "https://nl.dl.parscdn.net/f/019dde1b-5fc6-73fe-a2b6-f7bc8c712bc5/Pumpkins%20Teaser%202%20720p.mp4"
-            "https://nl.dl.parscdn.net/f/019dde1b-5fc9-71a1-b750-26cc6d61ab5b/Sandbox%20Teaser%201%202160p.mp4"
+            "https://nl.dl.parscdn.net/f/019dde1b-5fb2-7012-afaa-05d5bc174c7a/Maleficent%20Teaser%202%201080p.mp4"
+            "https://nl.dl.parscdn.net/f/019dde1b-5fb6-7176-aacf-82db66dbb6c6/Naughty%20Valentine%27s%20Day%202160p.mp4"
           )
 
           file_exists() {
