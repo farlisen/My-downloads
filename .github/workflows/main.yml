@@ -20,7 +20,8 @@ jobs:
         run: |
           # لیست فایل‌های تو اینجا قرار می‌گیرند
           items=(
-            "https://nl.dl.parscdn.net/f/019dde1c-a28c-7219-b61a-d9ab735e4231/Selti%20OnlyFans%2074.mp4"
+            "https://nl.dl.parscdn.net/f/019dde1b-5fd4-720e-bbe7-9d92db36ee21/To%20Fix%20the%20Mood%20%28Blue%20Bed%2C%20Pink%20Dress%29%20Teaser%202%201080p.mp4"
+            "https://nl.dl.parscdn.net/f/019dde1b-5fd8-7107-b2f6-17cb71e000d1/Twerking%201080p.mp4"
           )
 
           file_exists() {
